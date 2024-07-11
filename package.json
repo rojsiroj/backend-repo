@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "core/app.ts",
+  "license": "BSD-3-Clause",
   "scripts": {
     "dev": "nodemon --exec ts-node ./core/app.ts"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.21",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
